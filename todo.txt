@@ -1,0 +1,15 @@
+Setting Up The project. 
+- installs xunit => PFM1
+- installs fakeItEasy => PMF 2
+- installs EF => PMF 3
+- installs SqlLite => PMF 4
+
+Match Films
+- Crud films to match names. => PMF 5
+- Retrieve videos names given an folders. => PMF 6
+- Match videos retrieve with films previosly store. => PMF 7
+- Copy match videos to certain folder. => PMF 8
+
+Make UI
+- Admin for manage films to match PMF => 9
+

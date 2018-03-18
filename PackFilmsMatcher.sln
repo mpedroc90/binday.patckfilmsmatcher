@@ -3,7 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackFilmsMatcher", "PackFilmsMatcher\PackFilmsMatcher.csproj", "{9C3E39A4-5C30-43A6-B390-1877989DCE5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackFilmsMatcher.UI", "src\PackFilmsMatcher.UI\PackFilmsMatcher.UI.csproj", "{9C3E39A4-5C30-43A6-B390-1877989DCE5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EF3E7833-22BD-475A-9358-39E3D80CF55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackFilmsMatcher.Core", "src\PackFilmsMatcher.Core\PackFilmsMatcher.Core.csproj", "{F6954D70-744D-466F-BCCE-8C1919997E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackFilmsMatcher.Test", "test\PackFilmsMatcher.Test\PackFilmsMatcher.Test.csproj", "{352D0516-5C18-4F4A-A4FC-3C13632482E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackFilmsMatcher.Infrastruture", "src\PackFilmsMatcher.Infrastruture\PackFilmsMatcher.Infrastruture.csproj", "{B349CC10-FBB9-454C-9B05-3B83E64470AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6B5831E4-DA12-4CBE-B00E-303E997ABBB9}"
+	ProjectSection(SolutionItems) = preProject
+		todo.txt = todo.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +28,24 @@ Global
 		{9C3E39A4-5C30-43A6-B390-1877989DCE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3E39A4-5C30-43A6-B390-1877989DCE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3E39A4-5C30-43A6-B390-1877989DCE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6954D70-744D-466F-BCCE-8C1919997E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6954D70-744D-466F-BCCE-8C1919997E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6954D70-744D-466F-BCCE-8C1919997E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6954D70-744D-466F-BCCE-8C1919997E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352D0516-5C18-4F4A-A4FC-3C13632482E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352D0516-5C18-4F4A-A4FC-3C13632482E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352D0516-5C18-4F4A-A4FC-3C13632482E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352D0516-5C18-4F4A-A4FC-3C13632482E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B349CC10-FBB9-454C-9B05-3B83E64470AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B349CC10-FBB9-454C-9B05-3B83E64470AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B349CC10-FBB9-454C-9B05-3B83E64470AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B349CC10-FBB9-454C-9B05-3B83E64470AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{352D0516-5C18-4F4A-A4FC-3C13632482E7} = {EF3E7833-22BD-475A-9358-39E3D80CF55D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88CD5CA9-DAD7-49F5-8E9D-858CB3423546}
